@@ -1,105 +1,89 @@
-🌍 AI Travel Planner Agent
-An Intelligent, Cloud-Native Travel Assistant Powered by IBM Agentic Lab, Watson AI Services, and IBM Cloud
+<h1 align="center">🌍 AI Travel Planner Agent</h1>
+<p align="center"><b>An Intelligent, Cloud-Native Travel Assistant Powered by IBM Agentic Lab, Watson AI Services, and IBM Cloud</b></p>
 
-📖 Project Overview
-The AI Travel Planner Agent is a cloud-deployed, AI-driven assistant designed to simplify and optimize the travel planning process.
+<hr/>
+
+<h2>📖 Project Overview</h2>
+<p>
+The <b>AI Travel Planner Agent</b> is a cloud-deployed, AI-driven assistant designed to <b>simplify and optimize the travel planning process</b>.
 It intelligently understands user preferences and constraints, delivering:
+</p>
+<ul>
+  <li>Personalized travel recommendations</li>
+  <li>Optimized itineraries</li>
+  <li>Transport & accommodation suggestions</li>
+  <li>Real-time updates and rebooking assistance</li>
+</ul>
+<p>By leveraging <b>real-time data</b> and <b>agentic AI capabilities</b> on IBM Cloud, it ensures a seamless, efficient, and highly interactive travel experience.</p>
 
-Personalized travel recommendations
+<hr/>
 
-Optimized itineraries
+<h2>🎯 Key Features</h2>
+<ul>
+  <li><b>Personalized Planning:</b> Tailors trips based on budget, duration, and preferences.</li>
+  <li><b>Real-Time Data Integration:</b> Weather, events, transport, and maps APIs.</li>
+  <li><b>Dynamic Adjustments:</b> Reacts to disruptions like flight cancellations or weather changes.</li>
+  <li><b>Multi-Platform Access:</b> Available as a chatbot or via a responsive web interface.</li>
+  <li><b>Scalable & Reliable:</b> Hosted on IBM Cloud with high availability.</li>
+</ul>
 
-Transport & accommodation suggestions
+<hr/>
 
-Real-time updates and rebooking assistance
+<h2>🛠 Technology Stack</h2>
+<ul>
+  <li><b>Frontend:</b> HTML, CSS, JavaScript, IBM Watson Assistant UI</li>
+  <li><b>Backend:</b> Python (Flask / FastAPI) or Node.js</li>
+  <li><b>IBM Cloud Services:</b>
+    <ul>
+      <li>IBM Agentic Lab — Orchestrates AI workflows</li>
+      <li>Watson Assistant — Conversational interface</li>
+      <li>Watsonx.ai — NLU & prompt generation</li>
+      <li>IBM Cloud Object Storage — Stores user preferences & datasets</li>
+    </ul>
+  </li>
+  <li><b>Libraries & Tools:</b> transformers, ibm-watson, requests, pandas, numpy, matplotlib, plotly</li>
+</ul>
 
-By leveraging real-time data and agentic AI capabilities on IBM Cloud, it ensures a seamless, efficient, and highly interactive travel experience.
+<hr/>
 
-🎯 Key Features
-Personalized Planning: Tailors trips based on budget, duration, and preferences.
+<h2>🔄 System Workflow</h2>
+<ol>
+  <li><b>Data Collection:</b> APIs for travel, weather, events + user preferences.</li>
+  <li><b>Data Preprocessing:</b> Clean, normalize, and extract key features.</li>
+  <li><b>Agentic AI Logic:</b> Intent detection, context management, and NLG via Watsonx.ai & Watson Assistant.</li>
+  <li><b>Prediction & Recommendations:</b> Generate itineraries, suggestions, and rebooking help.</li>
+  <li><b>Deployment:</b> Hosted on IBM Cloud with web/chatbot access.</li>
+  <li><b>Monitoring & Optimization:</b> Track satisfaction & accuracy; improve continuously.</li>
+</ol>
 
-Real-Time Data Integration: Weather, events, transport, and maps APIs.
+<hr/>
 
-Dynamic Adjustments: Reacts to disruptions like flight cancellations or weather changes.
+<h2>📌 Example Use Cases</h2>
+<ul>
+  <li>"Plan a 7-day trip to Tokyo under $2,000 with cultural activities."</li>
+  <li>"Find the best weekend getaway near Mumbai with a budget of ₹15,000."</li>
+  <li>"Rebook my hotel and flights if my train is delayed."</li>
+</ul>
 
-Multi-Platform Access: Available as a chatbot or via a responsive web interface.
+<hr/>
 
-Scalable & Reliable: Hosted on IBM Cloud with high availability.
+<h2>🚀 Future Enhancements</h2>
+<ul>
+  <li>Voice interaction for hands-free planning</li>
+  <li>Multi-language support for global users</li>
+  <li>End-to-end booking integration with payments</li>
+  <li>Sustainable travel recommendations</li>
+  <li>Augmented Reality (AR) guides and virtual tours</li>
+</ul>
 
-🛠 Technology Stack
-Frontend:
+<hr/>
 
-HTML, CSS, JavaScript
+<h2>📚 References</h2>
+<ul>
+  <li><a href="https://www.ibm.com/docs/en/watsonx" target="_blank">IBM Watsonx.ai — Prompt Engineering Guide</a></li>
+  <li>Buhalis, D., & Leung, D. (2018). Smart hospitality – Interconnectivity and interoperability.</li>
+  <li>Devlin, J. et al. (2019). BERT: Pre-training of Deep Bidirectional Transformers.</li>
+</ul>
 
-IBM Watson Assistant UI
+<hr/>
 
-Backend:
-
-Python (Flask / FastAPI) or Node.js
-
-IBM Cloud Services:
-
-IBM Agentic Lab — Orchestrates AI workflows.
-
-Watson Assistant — Conversational interface and dialog orchestration.
-
-Watsonx.ai — Natural Language Understanding (NLU) and generation.
-
-IBM Cloud Object Storage — Stores user preferences and travel datasets.
-
-Libraries & Tools:
-transformers · ibm-watson · requests · pandas · numpy · matplotlib · plotly
-
-🔄 System Workflow
-Data Collection:
-
-Pulls data from travel, weather, events, and mapping APIs.
-
-Incorporates user preferences for budget, destination, and duration.
-
-Data Preprocessing:
-
-Cleans, normalizes, and extracts key features (e.g., cost, location relevance).
-
-Agentic AI Logic:
-
-Intent detection, context management, and natural language generation via Watsonx.ai.
-
-Conversation orchestration using Watson Assistant.
-
-Prediction & Recommendations:
-
-Generates itineraries, accommodation suggestions, and real-time rebooking options.
-
-Deployment:
-
-Hosted on IBM Cloud, accessible via web interface or chatbot.
-
-Monitoring & Optimization:
-
-Tracks response quality and user satisfaction for continuous improvement.
-
-📌 Example Use Cases
-"Plan a 7-day trip to Tokyo under $2,000 with cultural activities."
-
-"Find the best weekend getaway near Mumbai with a budget of ₹15,000."
-
-"Rebook my hotel and flights if there’s a delay in my train."
-
-🚀 Future Enhancements
-Voice Interaction — Hands-free trip planning.
-
-Multi-Language Support — Global accessibility.
-
-End-to-End Bookings — Direct integration with flights, hotels, and payment gateways.
-
-Sustainable Travel — Eco-friendly travel options and carbon footprint tracking.
-
-Augmented Reality (AR) Guides — Virtual tours and local navigation.
-
-📚 References
-IBM Watsonx.ai — Prompt Engineering Guide
-
-Buhalis, D., & Leung, D. (2018). Smart hospitality – Interconnectivity and interoperability.
-
-Devlin, J. et al. (2019). BERT: Pre-training of Deep Bidirectional Transformers.
